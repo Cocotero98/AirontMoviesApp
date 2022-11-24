@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,500&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    min-width: 640px;
+    line-height: 1.5;
+}
+#loginBody{
+    background: url("../assets/back.jpg");
+    background-position: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: #2791C2;
+}
+h1 strong{
+    font-weight: 900;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #313131F2;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 50px 17px;
+}
+ p, .loginWith{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.smallFont{
+    font-size: 20px;
+}
+
+input{
+    height: 70px;
+    border-radius: 5px;
+    margin: 20px 48px 0 46px;
+    padding-left: 25px;
+    padding-right: 23px
+}
+label{
+    color: white;
+    width: 100%;
+    padding-left: 8px;
+}
+#wrapper{
+    margin: 20px 48px 0 46px;
+    display: flex;
+    flex: auto;
+}
+[type="checkbox"]{
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+}
+a{
+    color: #29B9FC;
+}
+#wrapper a{
+    width: 100%;
+    text-align: right;
+}
+#loginBtn{
+    margin: 35px 46px 40px 48px;
+    border-radius: 35px;
+    height: 70px;
+    color: white;
+    background-color: #29B9FC;
+    ;
+}
+.loginWith{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 35px;
+    margin: 20px;
+}
